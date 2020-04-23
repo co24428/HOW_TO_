@@ -179,7 +179,21 @@ sudo ufw allow 9866
     
     ![](http://drive.google.com/uc?id=1Ne2ejQ76rBKcZWwTQVZWRZdchAG5qVUp)
     
+- 하둡 시스템에 파일 생성 확인
     
+~~~
+# 리눅스 명령어를 실행할 때 아래처럼 실행하면 된다.
+hdfs dfs -[Linux 명령어]
+# 예시
+hdfs dfs -mkdir /test1  => 하둡 파일시스템에 폴더 생성 
+hdfs dfs -chmod -R 777 /test1  =>  /test1의 권한을 모든 사용자가 사용할 수 있게
+~~~
+
+- Utilities > Browse the file system
+    - 여기서 생성된 것 확인 가능
+    - 따로 업로드도 가능하다 ( "/"의 경로에 권한을 줄 경우)
+
+
 ### Hadoop 등 가상환경 시 중요한 점!!
 - 실행한 것을 안끄고 강제로 꺼버리면 추후에 문제우려가 있다.
     - 문을 열었으면 잘 닫아주어야 한다.
