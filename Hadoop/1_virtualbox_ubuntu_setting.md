@@ -108,7 +108,19 @@ Verify password: [password]
 Out[2]: 'sha1:xxx...' # 비밀번호 암호화(복사해둘 것)
 exit() # python 모드 탈출
 ~~~
-    
+
+
+- nano text editor : vim보다 편리하다
+- nano 사용법
+    - 마우스 휠 사용가능
+    - 기본적으로 insert mode(키보드 입력이 가능)
+    - alt + shift + 3 : 좌측 코드라인 띄우기
+    - 아래는 명령어 가이드
+        - ^ : Ctrl + 해당키
+    - 저장하고 나가기
+        Ctrl + s : save / Ctrl + x : exit
+
+
 ~~~
 # 작업경로 생성
 mkdir ~/jupyter-workspace

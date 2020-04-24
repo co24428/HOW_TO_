@@ -30,14 +30,15 @@ tar -zxvf hadoop-3.1.3.tar.gz
 
 ## 3. Hadoop 환경설정
 
-- 텍스트 에디터는 nano를 사용한다.
+- nano text editor : vim보다 편리하다
 - nano 사용법
     - 마우스 휠 사용가능
-    - 기본적으로 키보드는 인풋모드
+    - 기본적으로 insert mode(키보드 입력이 가능)
     - alt + shift + 3 : 좌측 코드라인 띄우기
-    - 아래의 명령어
+    - 아래는 명령어 가이드
         - ^ : Ctrl + 해당키
-    - Ctrl + s : save / Ctrl + x : exit
+    - 저장하고 나가기
+        Ctrl + s : save / Ctrl + x : exit
 
 - 환경변수 설정
 
