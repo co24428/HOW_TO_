@@ -79,10 +79,6 @@ df1.writeStream.outputMode("append") \
     .trigger(processingTime="10 seconds") \
     .start() \
     .awaitTermination() 
-
-# 
-# 
-# 
 ~~~
 - df1의 실시간 값을 console에 출력함
 - .writeStream.outputMode("append")
