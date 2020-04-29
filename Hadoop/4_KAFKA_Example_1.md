@@ -52,7 +52,7 @@ class Consumer(multiprocessing.Process):
 - 어떤 토픽에 연결할지 선택 (subcribe)
 - utf-8 인코딩을 해주지 않으면 b'' 처럼 byte text로 오게 된다.
 
-### 2.3. Consumer class
+### 2.3. Producer class
 
 ~~~
 class Producer(threading.Thread):
