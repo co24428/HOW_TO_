@@ -1,0 +1,23 @@
+1. git 프로젝트를 관리할 폴더 생성 및 이동 
+  $ mkdir py_projects
+  $ cd py_projects
+2. git상 프로젝트 다운로드
+  [ public ]
+  $ git clone https://github.com/bongseop2822/python_basic.git
+  [ private ]
+  $ git clone https://ID:비번@github.com/bongseop2822/python_basic.git
+3. vs code 에서 py_projects 오픈
+4. git 사용자임을 등록
+  $ git config --global user.email "you@example.com"
+    git config --global user.email "ihwan1236@gmail.com"
+  $ git config --global user.name "Your Name"
+    git config --global user.name "ihwan"
+
+-----
+
+github에 업로드 : "commit" - "push"
+ - 수정 후 > 소스관리 > 체크표시(commit) > 좌하단에 새로고침 바(위, 아래 화살표) 클릭 후 push? > OK
+git에서 가져오기 : "pull"
+ - 소스관리 > ... > pull
+ 
+ fatal: No remote repository specified. Please, specify either a URL or a remote name from which new revisions should be fetched.
