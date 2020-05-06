@@ -80,7 +80,7 @@ source ~/.bashrc
 <configuration>
     <property>
         <name>fs.defaultFS</name>
-        <value>hdfs://192.168.0.1:9000</value>
+        <value>hdfs://192.168.0.[u1_IP]:9000</value>
     </property>
 </configuration>
 
