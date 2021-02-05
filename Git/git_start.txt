@@ -21,3 +21,5 @@ git에서 가져오기 : "pull"
  - 소스관리 > ... > pull
  
  fatal: No remote repository specified. Please, specify either a URL or a remote name from which new revisions should be fetched.
+
+:: updated 2021-02-05
